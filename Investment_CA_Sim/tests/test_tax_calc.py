@@ -1,5 +1,5 @@
 import pytest
-from src.tax_calc import calculate_tax_numba, marginal_tax_rate_numba
+from Investment_CA_Sim.src.tax_calc import calculate_tax_numba, marginal_tax_rate_numba
 
 def test_zero_income():
     assert calculate_tax_numba(0) >= 0.0

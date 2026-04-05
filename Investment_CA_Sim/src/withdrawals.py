@@ -1,5 +1,5 @@
 from numba import njit
-from src.tax_calc import calculate_tax_numba
+from Investment_CA_Sim.src.tax_calc import calculate_tax_numba
 
 @njit
 def run_retirement_simulation_numba(

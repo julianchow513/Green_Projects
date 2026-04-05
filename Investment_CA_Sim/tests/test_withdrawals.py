@@ -1,5 +1,5 @@
 import pytest
-from src.withdrawals import run_retirement_simulation_numba, run_simulation_wrapper
+from Investment_CA_Sim.src.withdrawals import run_retirement_simulation_numba, run_simulation_wrapper
 
 # Mock account data for testing
 accounts_template = {

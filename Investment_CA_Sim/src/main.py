@@ -1,5 +1,5 @@
-from tax_calc import calculate_tax_numba, marginal_tax_rate_numba
-from accounts import *
+from Investment_CA_Sim.src.tax_calc import calculate_tax_numba, marginal_tax_rate_numba
+from Investment_CA_Sim.src.accounts import *
 
 
 MKT_GROWTH = 0.1435
